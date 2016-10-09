@@ -1,0 +1,8 @@
+yann_platform_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: YannPlatformBundle:Default:index }
+
+
+hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: YannPlatformBundle:Advert:index }
